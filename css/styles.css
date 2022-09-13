@@ -68,7 +68,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 .animation-col {
   background-color: #16161B;
-  border-radius: 1%;
+  border-radius: 15%;
   padding: 5% 5%;
   margin-bottom: 10%;
 
@@ -106,7 +106,7 @@ font-family: 'Ubuntu', sans-serif; */
   }
 
   .title-text {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .title-h3 {
@@ -122,21 +122,21 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 body {
-  background-color: #FFF9E8;
+  background-color: #222222;
   font-family: 'Ubuntu', sans-serif;
 
 }
 
 h1 {
   font-family: 'Sofia', cursive;
-  color: #16161B;
+  color: white;
   font-size: 5rem;
 
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #16161B;
+  color: #E8E8E8;
   font-weight: normal;
   font-size: 3rem;
 
@@ -144,7 +144,7 @@ h2 {
 
 h3 {
   font-family: 'Ubuntu', sans-serif;
-  color: #16161B;
+  color: #E8E8E8;
   font-weight: 400;
   font-size: 2rem;
 }
@@ -188,7 +188,7 @@ p {
 #features {
   align-items: center;
   text-align: center;
-  padding: 20% 0 5%;
+  padding: 20% 0 3%;
 
 }
 
@@ -205,15 +205,13 @@ p {
 }
 
 .container-features {
-  background-color: #2B2B2B;
+  background-color: black;
   padding: 5% 5%;
-  padding-bottom: 20%;
-  margin: 5% 5%;
+  padding-bottom: 10%;
+  margin: 1% 5%;
   border-style: hidden;
-  border-radius: 2%;
-  box-shadow: -1px -1px 15px -2px #424242,
-  3px 3px 20px 2px #424242;
-  background: linear-gradient(180deg, rgba(157,132,183,1) 0%, rgba(43,43,43,1) 50%, rgba(9,19,83,1) 100%);
+  border-radius: 4%;
+
 
 }
 
@@ -224,8 +222,8 @@ p {
 
 
 .responsive-img {
-  width: 25vw;
-  height: 50vw;
+  width: 35vw;
+  height: 70vw;
 }
 
 
@@ -237,16 +235,12 @@ p {
 }
 
 .container-features-2 {
-  background-color: #01332f;
-  padding: 5% 5%;
-  padding-bottom: 50%;
+  background-color: black;
+  padding: 1% 5%;
+  padding-bottom: 25%;
   margin: 5% 5%;
   border-style:hidden;
-  border-radius: 2%;
-  box-shadow: -1px -1px 15px -2px #1C1C1C,
-  3px 3px 20px 2px #424242;
-
-  background: linear-gradient(180deg, rgba(1,51,47,1) 0%, rgba(99,115,115,1) 56%, rgba(24,151,143,1) 100%);
+  border-radius: 4%;
 }
 
 .h2-features2 {
