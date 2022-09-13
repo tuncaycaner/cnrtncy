@@ -1,0 +1,162 @@
+/* Font-Families */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Sofia', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+
+
+#title {
+  color: #16161B;
+
+
+}
+
+#navbarNav {
+  font-family: 'Montserrat', sans-serif;
+  color: #16161B;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 3% 10%;
+  margin-left: 5%;
+}
+
+
+
+
+.container-navbarlogo {
+  padding: 3% 0%;
+}
+
+.nav-item {
+  padding: 3% 5%;
+
+
+}
+
+
+.nav-link {
+  color: #16161B;
+  margin-left: 5%;
+}
+
+
+.title-row {
+  padding: 3% 10%;
+}
+
+.title-col {
+  padding: 3% 4% 0;
+}
+
+.title-text {
+  text-align: left;
+}
+
+
+.animation-col {
+  background-color: #16161B;
+  border-radius: 1%;
+  height: 35rem;
+  width: 35rem;
+  padding: 3% 4% 0;
+
+
+
+
+}
+
+
+
+
+@media (max-width:600px) {
+  .triangle-row {
+    display: none;
+  }
+
+  .animation-col {
+    transform: scale(0.8);
+  }
+
+  .title-text {
+    padding: 3% 0%;
+    text-align: left;
+    transform: scale(0.9);
+    padding: 2% 2%;
+  }
+
+}
+
+
+
+
+
+
+body {
+  background-color: #FFF9E8;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Sofia', cursive;
+  color: #16161B;
+  font-size: 6rem;
+
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #16161B;
+  font-weight: 400;
+  font-size: 2rem;
+
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #16161B;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  font-weight: 300;
+  font-size: 1.3rem;
+
+}
+
+
+
+
+
+}
+
+.triangle-left {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 75px solid transparent;
+  border-bottom: 75px solid transparent;
+  border-left: 150px solid #00072C;
+}
+
+.triangle-right {
+
+  display: inline-block;
+  bottom: 0px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-top: 75px solid transparent;
+  border-right: 150px solid rgb(198, 85, 2);
+  border-bottom: 75px solid transparent;
+  margin-left: 40%;
+
+}
+
+
+#features {
+  padding: 5% 5%;
+}
