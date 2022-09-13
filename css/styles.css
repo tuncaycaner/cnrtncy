@@ -42,50 +42,35 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 .title-row {
-  padding: 3% 10%;
+  padding: 3% 1%;
 }
 
 .title-col {
-  padding: 3% 4% 0;
+
+
 }
 
 .title-text {
-  text-align: left;
+
 }
 
 
 .animation-col {
   background-color: #16161B;
   border-radius: 1%;
-  height: 35rem;
-  width: 35rem;
-  padding: 3% 4% 0;
+  height: 30em;
+  width: 40em;
 
 
 
 
-}
-
-
-
-
-@media (max-width:600px) {
-  .triangle-row {
-    display: none;
-  }
-
-  .animation-col {
-    transform: scale(0.8);
-  }
-
-  .title-text {
-    padding: 3% 0%;
-    text-align: left;
-    transform: scale(0.9);
-    padding: 2% 2%;
-  }
 
 }
+
+
+
+
+
 
 
 
@@ -108,7 +93,7 @@ h2 {
   font-family: 'Ubuntu', sans-serif;
   color: #16161B;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 4rem;
 
 }
 
@@ -116,14 +101,14 @@ h3 {
   font-family: 'Ubuntu', sans-serif;
   color: #16161B;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   color: grey;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 
 }
 
