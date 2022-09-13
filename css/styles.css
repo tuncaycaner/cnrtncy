@@ -95,18 +95,24 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 
 
   .container-title {
-    padding: 5% 0%;
+    padding: 1% 0%;
   }
 
-  .title-row {
-    text-align: center;
+  .title-text {
+    font-size: 3rem;
   }
 
+  .title-h3 {
+    font-size: 1.5rem;
+  }
 
+  .title-p {
+    font-size: 0.9rem;
+  }
 
 
 }
