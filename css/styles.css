@@ -42,8 +42,12 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 
+.container-title {
+  padding: 2% 5%;
+}
+
 .title-row {
-  padding: 3% 1%;
+
   text-align: center;
 }
 
@@ -66,41 +70,38 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 
-@media (max-width: 1000px) {
-  /* .animation-col {
+@media (max-width: 1200px) {
+
+ .animation-col {
 
     transform: scale(0.9);
   }
 
-  #title {
-    transform: scale(0.9);
-  } */
-  body {
-    transform: scale(0.8);
-  }
+
+
+
+
 }
-
-
-
 
 
 body {
   background-color: #FFF9E8;
   font-family: 'Ubuntu', sans-serif;
+
 }
 
 h1 {
   font-family: 'Sofia', cursive;
   color: #16161B;
-  font-size: 6em;
+  font-size: 4rem;
 
 }
 
 h2 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #16161B;
-  font-weight: 400;
-  font-size: 4rem;
+  font-weight: normal;
+  font-size: 3rem;
 
 }
 
@@ -112,10 +113,10 @@ h3 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: grey;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 
 }
 
@@ -144,3 +145,24 @@ p {
   margin-left: 40%;
 
 } */
+
+
+
+#features {
+  align-items: center;
+  text-align: center;
+  padding: 5% 0%;
+
+}
+
+
+.container-features {
+  background-color: #2B2B2B;
+  padding: 10% 10%;
+  margin: 5% 10%;
+}
+
+.responsive-img {
+  width: 20vw;
+  height: 40vw;
+}
