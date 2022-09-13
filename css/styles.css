@@ -18,15 +18,15 @@ font-family: 'Ubuntu', sans-serif; */
   color: #16161B;
   font-size: 1.1rem;
   font-weight: bold;
-  padding: 3% 10%;
-  margin-left: 5%;
+  padding: 5% 10%;
+  margin: 5% 15%;
 }
 
 
 
 
 .container-navbarlogo {
-  padding: 3% 0%;
+  padding: 10% 0%;
 }
 
 .nav-item {
@@ -44,14 +44,17 @@ font-family: 'Ubuntu', sans-serif; */
 
 .container-title {
   padding: 2% 5%;
+
 }
 
 .title-row {
 
-  text-align: center;
+  text-align: left;
+  margin: 5% 5%;
 }
 
 .title-col {
+  padding: 0 0 10%;
 
 
 }
@@ -64,22 +67,46 @@ font-family: 'Ubuntu', sans-serif; */
 .animation-col {
   background-color: #16161B;
   border-radius: 1%;
-  height: 30em;
-  width: 40em;
+  padding: 5% 5%;
+  margin-bottom: 10%;
+
+
 }
+
+.animation-box {
+  width: 40vw;
+  height: 40vh;
+  padding: 5% 5%;
+
+}
+
+.octopus-head {
+
+  width: 10vw;
+  height: 20vh;
+
+  border-radius: 100%;
+  background: radial-gradient(ellipse at center, rgb(198, 85, 2) 50%, rgb(0, 0, 0) 100%);
+  animation: head 20s infinite;
+  animation-delay: 10s;
+  animation-timing-function: ease-in-out;
+}
+
 
 
 
 @media (max-width: 1200px) {
 
- .animation-col {
 
-    transform: scaleY(0.7);
-    
-  }
   .container-title {
-    padding: 10% 0%;
+    padding: 5% 0%;
   }
+
+  .title-row {
+    text-align: center;
+  }
+
+
 
 
 }
@@ -152,7 +179,7 @@ p {
 #features {
   align-items: center;
   text-align: center;
-  padding: 5% 0%;
+  padding: 10% 0;
 
 }
 
