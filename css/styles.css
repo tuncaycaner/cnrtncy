@@ -192,16 +192,27 @@ p {
 
 }
 
+.h2-features {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.h3-features {
+  font-size: 1.2rem;
+  padding: 5% 10%;
+
+}
 
 .container-features {
   background-color: #2B2B2B;
   padding: 5% 5%;
-  padding-bottom: 50%;
+  padding-bottom: 20%;
   margin: 5% 5%;
   border-style: hidden;
   border-radius: 2%;
-  box-shadow: -10px -10px 27px -2px #424242,
-  10px 10px 27px 2px #424242;
+  box-shadow: -1px -1px 15px -2px #424242,
+  3px 3px 20px 2px #424242;
   background: linear-gradient(180deg, rgba(157,132,183,1) 0%, rgba(43,43,43,1) 50%, rgba(9,19,83,1) 100%);
 
 }
@@ -210,9 +221,7 @@ p {
   animation: pulse 2s;
 }
 
-.about-me {
-  padding: 0% 0 20%;
-}
+
 
 .responsive-img {
   width: 25vw;
@@ -223,7 +232,7 @@ p {
 #features-2 {
   align-items: center;
   text-align: center;
-  padding: 20% 0 5%;
+  padding: 20% 0 3%;
 
 }
 
@@ -234,10 +243,21 @@ p {
   margin: 5% 5%;
   border-style:hidden;
   border-radius: 2%;
-  box-shadow: -20px -25px 35px -11px #1C1C1C,
-  10px 10px 27px 2px #424242;
+  box-shadow: -1px -1px 15px -2px #1C1C1C,
+  3px 3px 20px 2px #424242;
 
   background: linear-gradient(180deg, rgba(1,51,47,1) 0%, rgba(99,115,115,1) 56%, rgba(24,151,143,1) 100%);
+}
+
+.h2-features2 {
+  font-weight: bold;
+  padding: 5% 10%;
+  font-size: 2rem;
+}
+
+.h3-features2 {
+  font-size: 1.2rem;
+  padding: 5% 10%;
 }
 
 .container-features-2:hover {
