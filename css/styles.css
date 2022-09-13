@@ -8,6 +8,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 #title {
   color: #16161B;
+  text-align: center;
 
 
 }
@@ -16,7 +17,7 @@ font-family: 'Ubuntu', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   color: #16161B;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: bold;
   padding: 3% 10%;
   margin-left: 5%;
 }
@@ -43,6 +44,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 .title-row {
   padding: 3% 1%;
+  text-align: center;
 }
 
 .title-col {
@@ -60,13 +62,7 @@ font-family: 'Ubuntu', sans-serif; */
   border-radius: 1%;
   height: 30em;
   width: 40em;
-
-
-
-
-
 }
-
 
 
 
@@ -85,7 +81,7 @@ body {
 h1 {
   font-family: 'Sofia', cursive;
   color: #16161B;
-  font-size: 6rem;
+  font-size: 6em;
 
 }
 
@@ -115,10 +111,7 @@ p {
 
 
 
-
-}
-
-.triangle-left {
+/* .triangle-left {
   display: inline-block;
   width: 0;
   height: 0;
@@ -139,9 +132,4 @@ p {
   border-bottom: 75px solid transparent;
   margin-left: 40%;
 
-}
-
-
-#features {
-  padding: 5% 5%;
-}
+} */
