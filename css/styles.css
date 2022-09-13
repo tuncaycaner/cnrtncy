@@ -66,8 +66,19 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 
+@media (max-width: 1000px) {
+  /* .animation-col {
 
+    transform: scale(0.9);
+  }
 
+  #title {
+    transform: scale(0.9);
+  } */
+  body {
+    transform: scale(0.8);
+  }
+}
 
 
 
